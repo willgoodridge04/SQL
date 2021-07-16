@@ -29,4 +29,4 @@ Sales Analysis Project:
 
 - Cleaned data for Power BI import
 
-- Utilized 
+- Utilized Joins, CASE statements
