@@ -1,4 +1,5 @@
 -- Cleansed Dim_Customer Table -- 
+
 SELECT 
   c.[CustomerKey] as CustomerKey, 
   --[GeographyKey]
@@ -12,6 +13,7 @@ SELECT
   --,[BirthDate]
   --,[MaritalStatus]
   --,[Suffix]
+  
   Case c.Gender when 'M' then 'Male' when 'F' then 'Female' end as Gender, -- created case statement to concatenate first and last name
   --,[EmailAddress]
   --,[YearlyIncome]
@@ -28,9 +30,12 @@ SELECT
   --,[AddressLine1]
   --,[AddressLine2]
   --,[Phone]
+  
   c.[DateFirstPurchase] as DateFirstPurchase, 
   g.City as [Customer City] 
+  
   --,[CommuteDistance]
+  
 FROM 
   [dbo].[DimCustomer] as c  -- Joined in the Customer City from the Geography Table
   Left Join dbo.DimGeography as g on g.GeographyKey = c.GeographyKey 
@@ -41,6 +46,8 @@ order by
 
   
 -- Cleansed DIM_Date Table --
+
+
 SELECT 
   [DateKey], 
   [FullDateAlternateKey] as Date, 
@@ -61,6 +68,7 @@ SELECT
   --[FiscalQuarter]
   --[FiscalYear]
   --[FiscalSemester]
+  
 FROM 
   [AdventureWorksDW2019].[dbo].[DimDate] 
 where 
@@ -69,6 +77,8 @@ where
 ---------------------------------------------------------------------------------------------
 
 -- Cleansed Dim_Product Table --
+
+
 SELECT 
   p.[ProductKey], 
   p.[ProductAlternateKey] as ProductItemCode, 
@@ -107,6 +117,7 @@ SELECT
   --,[TurkishDescription]
   --,[StartDate]
   --,[EndDate]
+  
   ISNULL (p.Status, 'Outdated') as [Product Status] 
 FROM 
   [dbo].[DimProduct] as p 
@@ -118,6 +129,8 @@ order by
   --------------------------------------------------------------------------------------------------------
   
   -- Cleansed FACT_InternetSales Table -- 
+  
+  
 SELECT 
 [ProductKey],
 [OrderDateKey],
@@ -145,6 +158,7 @@ SELECT
       --,[OrderDate]
       --,[DueDate]
       --,[ShipDate]
+      
  FROM 
   [dbo].[FactInternetSales]
 WHERE
