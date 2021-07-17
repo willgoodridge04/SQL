@@ -1,7 +1,8 @@
 # SQL-Queries
 
 Nashville Housing Project:
-- insert dataset link here
+
+Link to Dataset => https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa3ZKc0hrTEJqNDg4dnBwQkN0bGlLSDhSUWx2UXxBQ3Jtc0tsX1l4QTB3S1RWN1Y1cVZ1enJXRGkwZXJ3N2dKR0NtZGxnbS1fTUdQN001MC1jOXRqVVhhUl90OU5uTDhkM2lCMDExWjREdlY0bFlnWU9QWWRDcGhyWDFkLXB6U3RyVzZsckthb2g5QnVHWEZfbFM0TQ&q=https%3A%2F%2Fgithub.com%2FAlexTheAnalyst%2FPortfolioProjects%2Fblob%2Fmain%2FNashville%2520Housing%2520Data%2520for%2520Data%2520Cleaning.xlsx
 
 - Standardized Date format using CONVERT function
 
@@ -16,7 +17,8 @@ Nashville Housing Project:
 -------------------------------------------------------------------------------------------------------------------
 
 COVID-19 Deaths Project:
-- link here
+
+Link to Dataset => https://ourworldindata.org/covid-deaths
 
 - Cleaned data for Tableau import
 
@@ -25,7 +27,8 @@ COVID-19 Deaths Project:
 --------------------------------------------------------------------------------------------------------------------
 
 Sales Analysis Project:
-- link here
+
+Link to Dataset => https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms
 
 - Cleaned data for Power BI import
 
