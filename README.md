@@ -7,7 +7,7 @@ A common conundrum when attempting to analyze data is coming across large datase
 
 The first issue I wanted to resolve was the SalesDate column that included time after importating the data from excel.
 
-To fix this issue, I used the CONVERT function to set the column to the DATE format.
+To fix this issue, I used the CONVERT function to create a new column using the DATE format to replace it.
 ![image](https://user-images.githubusercontent.com/66393809/127931305-98c9bbab-7592-4509-a645-38e661ba0ad4.png)
 
 
