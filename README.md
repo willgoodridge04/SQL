@@ -39,7 +39,7 @@ I then deleted the duplicate rows.
 ![image](https://user-images.githubusercontent.com/66393809/127934122-fa57eeaf-3e5d-494b-b0cd-09ef81f3e27a.png)
 
 
-To finish the project, I removed any unwanted columns that remained after editing the data set.
+To finish the project, I removed any unwanted columns that remained after editing the dataset.
 ![image](https://user-images.githubusercontent.com/66393809/127934214-91f9ed45-40e6-48cf-aac1-ecc5019fdb0e.png)
 
 The end result!
