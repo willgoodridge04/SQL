@@ -2,7 +2,7 @@
 
 Nashville Housing Project:
 
-A common conundrum when attempting to analyze data is coming across large datasets filled with data that are unstandardized, filled with duplicates, and littered with unwanted or disorganized information. In this project, I focused on a large set of Nashville housing data with the goal of cleansing. The end results led to a clean, easy-to-view dataset that can be analyzed and uploaded to other data anaysis programs, such as viz softwares like Tableau.
+A common conundrum when attempting to analyze data is coming across large datasets with data that are unstandardized, filled with duplicates, and littered with unwanted or disorganized information. In this project, I focused on a large set of Nashville housing data with the goal of cleansing. The end results led to a clean, easy-to-view dataset that can be analyzed and uploaded to other data anaysis programs, such as viz softwares like Tableau.
 
 
 The first issue I wanted to resolve was the SalesDate column that included time after importating the data from excel.
