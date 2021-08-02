@@ -68,6 +68,7 @@ COVID-19 Deaths Project:
 Hello
 
 Link to Dataset => https://ourworldindata.org/covid-deaths
+
 Link to Dashboard => https://public.tableau.com/app/profile/william.goodridge/viz/Covid-19Dashboard_16250905784320/Dashboard1
 
 - Cleaned data for Tableau import
@@ -79,6 +80,7 @@ Link to Dashboard => https://public.tableau.com/app/profile/william.goodridge/vi
 Sales Analysis Project:
 
 Link to Dataset => https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms
+
 Link to Dashboard => https://app.powerbi.com/view?r=eyJrIjoiZWEyNDBhOWEtNTRjYy00Y2ZmLTliMjAtYTBkNWE0M2I5MDk4IiwidCI6IjdhYTU0ZTA1LTFiMjUtNGJkNC04NmU1LTJmNzdlMmE2OWJiMiJ9
 - Cleaned data for Power BI import
 
