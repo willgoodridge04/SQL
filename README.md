@@ -1,6 +1,7 @@
 # SQL-Queries
 
 Nashville Housing Project:
+
 A common conundrum when attempting to analyze data is coming across large datasets filled with information that is unstandardized, filled with duplicates, and littered with unwanted or disorganized data. In this project, I focused on a large set of Nashville housing data with the goal of cleansing the data. The end results led to a clean, easy-to-view dataset that can be analyzed and uploaded to other data anaysis programs, such as viz softwares like Tableau.
 
 
