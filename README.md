@@ -12,6 +12,7 @@ To fix this issue, I used the CONVERT function to create a new column using the 
 
 
 The next issue to resolve was the abundance of Nulls in the PropertyAddress columns. This was occuring due to the dataset having duplicate ParcelID's for the same property transaction. One with the Property Address and one with Null.
+
 ![image](https://user-images.githubusercontent.com/66393809/127932271-559a2296-4ff4-4116-b952-66f3725aec69.png)
 
 To fix this, I used a JOIN statement to find every instance of duplication, created a new column that was populated with the correct Property Address, and used this to replace the Null PropertyAddress columns.
