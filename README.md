@@ -65,8 +65,11 @@ Link to Dataset => https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main
 
 COVID-19 Deaths Project:
 
-Hello
-
+The issue of Covid-19 lies at the forefront of global healthcare. Characterized by its highly infectious nature, the disease caused by the SARS-CoV-2 virus has perpetrated every corner of the planet. When faced with an issue of this scale the importance of data analysis cannot be understated, as data and statistical analysis are vital resources for preventative and remedial efforts.
+In this project, my goal was to create a visualization that revealed any trends or differences between different regions of the world on measures including infection count, death count, and death percentage of infected individuals. I utlized SQL queries to clean and standardize a dataset of global Covid-19 data to focus on infection and death rates partitioned by country. What I found was a distict difference in the Western portion of the globe (North/South America, Europe) on the amount of infections and percentage of population infected, when compared to more rural and under-developed nations in the East. While many of these wesetern nations hold high standards of healthcare, it seems the issue of high population density and urbanization leaps over this barrier, as transmissible diseases thrive in tightly-packed populations.
+An exception to this is found in Japan, a country that has both high population density and high urbanization. Explanations for this may be connected to more proactive preventive efforts by Japan's population, something that further data exploration could uncover.
+With a global death percentage of infected individuals being roughly 2%, the data reveals the true threat that Covid-19 poses as it scales with the global population.
+ 
 Link to Dataset => https://ourworldindata.org/covid-deaths
 
 Link to Dashboard => https://public.tableau.com/app/profile/william.goodridge/viz/Covid-19Dashboard_16250905784320/Dashboard1
